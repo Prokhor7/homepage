@@ -258,3 +258,32 @@ body {
 .additional-info__languages-item {
   color: var(--secondary-text-color);
 }
+
+.certifications {
+  flex: 1 1 60%;
+  margin-right: 50px;
+}
+
+.certifications__header {
+  color: var(--secondary-text-color);
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.certifications__items {
+  color: var(--secondary-text-color);
+  padding-left: 20px;
+}
+
+.certifications__items li {
+  margin-bottom: 5px;
+}
+
+.certifications__item-verification-link {
+  color: white;
+  background-color: var(--primary-text-color);
+  text-decoration: none;
+  padding: 2px;
+  border: 2px solid var(--border-color);
+  border-radius: 10px;
+}
